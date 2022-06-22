@@ -1,0 +1,11 @@
+name: InstantDamageNerf
+version: '${version}'
+main: me.jacob.instadmgnerf.InstantDamageNerf
+api-version: 1.13
+author: Jacob
+description: This will nerf instant damage and disables crafting of instant damage arrows
+
+commands:
+  reloadharmingnerf:
+    description: Reloads the config
+    usage: /reloadharmingnerf

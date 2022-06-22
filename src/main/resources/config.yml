@@ -1,0 +1,25 @@
+# What type of damage reduction should be applied to damage caused by magic?
+
+# Options:
+# - disabled: No damage reduction is applied to magic damage
+# - zero: All magic damage is reduced to zero
+# - subtract (requires argument) All magic damage is reduced to the specified amount
+# - divide (requires argument) All magic damage is divided by the specified amount
+# (2 damage = 1 heart)
+
+nerf-type: divide
+
+# If the option you chose requires an argument, what should it be?
+argument: 2
+
+# Should the Instant Damage arrow crafting recipe be disabled?
+disable-instant-damage-arrows: true
+
+# The following options are only used if the above option is set to true
+
+# Should opped players be able to bypass this?
+bypass-with-op: false
+
+# If a player has this permission, they will be able to bypass the restriction
+# Leave blank for no permission
+bypass-permission:
