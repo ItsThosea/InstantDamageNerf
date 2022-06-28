@@ -15,6 +15,9 @@ argument: 2
 # Should the Instant Damage arrow crafting recipe be disabled?
 disable-instant-damage-arrows: true
 
+# Should the plugin prevent players from buying harming arrows from Fletcher villagers?
+disable-villager-trades: true
+
 # The following options are only used if the above option is set to true
 
 # Should opped players be able to bypass this?
