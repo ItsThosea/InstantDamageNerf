@@ -21,6 +21,8 @@ public class Config {
 	@Getter
 	private boolean disableInstantDamageArrows;
 	@Getter
+	private boolean disableBuyingHarmingArrows;
+	@Getter
 	private boolean bypassWithOp;
 	@Getter
 	private String bypassPermission;
@@ -32,6 +34,7 @@ public class Config {
 		FileConfiguration config = plugin.getConfig();
 
 		disableInstantDamageArrows = config.getBoolean("disable-instant-damage-arrows");
+		disableBuyingHarmingArrows = config.getBoolean("disable-villager-trades");
 		bypassWithOp = config.getBoolean("bypass-with-op");
 		bypassPermission = config.getString("bypass-permission");
 
